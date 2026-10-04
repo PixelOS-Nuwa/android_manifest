@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="PixelOS-Nuwa"
+           fetch="git@github.com:PixelOS-Nuwa/"
+           review="https://review.PixelOS-Nuwa.com/"
+           revision="seventeen" />
+
+  <remote  name="lofx-lee"
+           fetch="git@github.com:lofx-lee/"
+           review="https://review.lofx-lee.com/"
+           revision="seventeen" />
+
+  <!-- frameworks_base -->
+  <remove-project name="PixelOS-AOSP/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" revision="seventeen" groups="pdk-cw-fs,pdk-fs" remote="PixelOS-Nuwa" />
+
+  <!-- packages_apps_Settings -->
+  <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="seventeen" groups="pdk-cw-fs,pdk-fs" remote="PixelOS-Nuwa" />
+
+  <!-- packages_apps_DolbyAtmos -->
+  <remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" />
+  <project path="packages/apps/DolbyAtmos" name="android_packages_apps_DolbyAtmos" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+
+  <!-- vendor custom -->
+  <remove-project name="PixelOS-AOSP/android_vendor_custom" />
+  <project path="vendor/custom" name="android_vendor_custom" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+
+  <!-- vendor lineage -->
+  <remove-project name="PixelOS-AOSP/android_vendor_lineage" />
+  <project path="vendor/lineage" name="android_vendor_lineage" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+
+  <!-- vendor crowdin -->
+  <remove-project name="PixelOS-AOSP/android_vendor_crowdin" />
+  <project path="vendor/crowdin" name="android_vendor_crowdin" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+
+  <!-- device trees -->
+  <project path="device/xiaomi/nuwa" name="android_device_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+  <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+
+  <!-- Dolby Atmos -->
+  <project path="device/xiaomi/sm8550-common-dolby" name="android_device_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="lofx-lee" />
+  <project path="vendor/xiaomi/sm8550-common-dolby" name="proprietary_vendor_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="lofx-lee" />
+
+  <!-- hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+
+  <!-- kernel trees -->
+  <project path="kernel/xiaomi/sm8550" name="android_kernel_xiaomi_sm8550" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+  <project path="kernel/xiaomi/sm8550-modules" name="android_kernel_xiaomi_sm8550-modules" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+  <project path="kernel/xiaomi/sm8550-devicetrees" name="android_kernel_xiaomi_sm8550-devicetrees" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+
+  <!-- proprietary_vendor trees -->
+  <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+  <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+
+  <!-- Google Camera -->
+  <project path="vendor/google/GoogleCamera" name="android_vendor_google_GoogleCamera" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+
+  <!-- Basic Call Recorder -->
+  <project path="vendor/xiaomi/bcr" name="android_vendor_xiaomi_bcr" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="PixelOS-Nuwa" />
+
+</manifest>
