@@ -6,11 +6,6 @@
            review="https://review.PixelOS-Nuwa.com/"
            revision="seventeen" />
 
-  <remote  name="lofx-lee"
-           fetch="git@github.com:lofx-lee/"
-           review="https://review.lofx-lee.com/"
-           revision="seventeen" />
-
   <!-- frameworks_base -->
   <remove-project name="PixelOS-AOSP/android_frameworks_base" />
   <project path="frameworks/base" name="android_frameworks_base" revision="seventeen" groups="pdk-cw-fs,pdk-fs" remote="PixelOS-Nuwa" />
@@ -36,8 +31,8 @@
   <project path="vendor/crowdin" name="android_vendor_crowdin" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
   <!-- device trees -->
-  <project path="device/xiaomi/nuwa" name="android_device_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
-  <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+  <project path="device/xiaomi/nuwa" name="android_device_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+  <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
   <!-- Dolby Atmos -->
   <project path="device/xiaomi/sm8550-common-dolby" name="android_device_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
@@ -47,13 +42,13 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
   <!-- kernel trees -->
-  <project path="kernel/xiaomi/sm8550" name="android_kernel_xiaomi_sm8550" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
-  <project path="kernel/xiaomi/sm8550-modules" name="android_kernel_xiaomi_sm8550-modules" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
-  <project path="kernel/xiaomi/sm8550-devicetrees" name="android_kernel_xiaomi_sm8550-devicetrees" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+  <project path="kernel/xiaomi/sm8550" name="android_kernel_xiaomi_sm8550" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+  <project path="kernel/xiaomi/sm8550-modules" name="android_kernel_xiaomi_sm8550-modules" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+  <project path="kernel/xiaomi/sm8550-devicetrees" name="android_kernel_xiaomi_sm8550-devicetrees" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
   <!-- proprietary_vendor trees -->
-  <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
-  <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
+  <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+  <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
   <!-- Google Camera -->
   <project path="vendor/google/GoogleCamera" name="android_vendor_google_GoogleCamera" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
