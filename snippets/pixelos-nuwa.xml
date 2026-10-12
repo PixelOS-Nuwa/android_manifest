@@ -40,8 +40,8 @@
   <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="lineage-24.0" remote="PixelOS-Nuwa" />
 
   <!-- Dolby Atmos -->
-  <project path="device/xiaomi/sm8550-common-dolby" name="android_device_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="lofx-lee" />
-  <project path="vendor/xiaomi/sm8550-common-dolby" name="proprietary_vendor_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="lofx-lee" />
+  <project path="device/xiaomi/sm8550-common-dolby" name="android_device_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+  <project path="vendor/xiaomi/sm8550-common-dolby" name="proprietary_vendor_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
   <!-- hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
@@ -59,6 +59,6 @@
   <project path="vendor/google/GoogleCamera" name="android_vendor_google_GoogleCamera" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
   <!-- Basic Call Recorder -->
-  <project path="vendor/xiaomi/bcr" name="android_vendor_xiaomi_bcr" groups="pdk-cw-fs,pdk-fs" revision="cp2a" remote="PixelOS-Nuwa" />
+  <project path="vendor/bcr" name="android_vendor_bcr" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
 </manifest>
