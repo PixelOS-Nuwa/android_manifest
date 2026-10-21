@@ -38,6 +38,10 @@
   <project path="device/xiaomi/sm8550-common-dolby" name="android_device_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
   <project path="vendor/xiaomi/sm8550-common-dolby" name="proprietary_vendor_xiaomi_sm8550-common-dolby" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
+  <!-- MiuiCamera -->
+  <project path="device/xiaomi/nuwa-miuicamera" name="android_device_xiaomi_nuwa-miuicamera" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+  <project path="vendor/xiaomi/nuwa-miuicamera" name="proprietary_vendor_xiaomi_nuwa-miuicamera" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
+
   <!-- hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
