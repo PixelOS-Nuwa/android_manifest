@@ -50,9 +50,6 @@
   <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
   <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
-  <!-- Google Camera -->
-  <project path="vendor/google/GoogleCamera" name="android_vendor_google_GoogleCamera" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
-
   <!-- Basic Call Recorder -->
   <project path="vendor/bcr" name="android_vendor_bcr" groups="pdk-cw-fs,pdk-fs" revision="seventeen" remote="PixelOS-Nuwa" />
 
